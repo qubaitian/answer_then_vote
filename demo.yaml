@@ -2,56 +2,65 @@ vote_list:
   - id: 1
     content: 投票之前都必须默认加入人机验证
     option:
-      agree: 1
-      disagree: 0
+      agree:
+        - qubaitian#3005
+      disagree:
     status: close
   - id: 2
     content: 这个网站使用匿名,只用来区分身份,记录提议和投票信息
     option:
-      agree: 1
-      disagree: 0
+      agree:
+        - qubaitian#3005
+      disagree:
     status: close
   - id: 3
     content: 投票之前除了加入人机认证,通过回答其他问题,以及投票选项确定具备资格
     option:
-      agree: 1
-      disagree: 0
+      agree:
+        - qubaitian#3005
+      disagree:
     status: close
   - id: 4
     content: 投票app的设计本身是否可以都使用投票决定
     option:
-      agree: 1
-      disagree: 0
+      agree:
+        - qubaitian#3005
+      disagree:
   - id: 5
     content: 投票一共分成三种,new,merge,update,relate,是否可以覆盖所有情况
     option:
-      agree: 1
-      disagree: 0
+      agree:
+        - qubaitian#3005
+      disagree:
   - id: 6
     update: 2
     content:
       status: open
     option:
-      agree: 0
-      disagree: 1
+      agree:
+        - qubaitian#3005
+      disagree:
     comment: 重新打开2号投票
   - id: 7
     content: 6号投票是否令人费解
     option:
-      agree: 0
-      disagree: 1
+      agree:
+        - qubaitian#3005
+      disagree:
   - id: 8
     content: 是否能看懂6号投票
     option:
-      agree: 0
-      disagree: 1
+      agree:
+        - qubaitian#3005
+      disagree:
   - id: 9
     merge:
       - 7
       - 8
     content:
       option:
-        agree: agree
+        agree:
+          - qubaitian#3005
         disagree: disagree
     option:
       agree: 0
@@ -61,7 +70,8 @@ vote_list:
       - 4
     content: 新用户教程是否可以使用类似的方式
     option:
-      agree: 1
+      agree:
+        - qubaitian#3005
       disagree: 0
 answer_list:
   - 人机验证
