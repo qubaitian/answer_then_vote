@@ -23,13 +23,13 @@ vote_list:
       agree: 1
       disagree: 0
   - id: 5
-    content: 投票一共分成三种,新内容,合并,关联,修改设置,是否可以覆盖所有情况
+    content: 投票一共分成三种,new,merge,update,relate,是否可以覆盖所有情况
     option:
       agree: 1
       disagree: 0
   - id: 6
-    type: update
-    content: |
+    update: 2
+    content:
       status: open
     option:
       agree: 0
@@ -46,7 +46,9 @@ vote_list:
       agree: 0
       disagree: 1
   - id: 9
-    type: merge
+    merge:
+      - 7
+      - 8
     content:
       option:
         agree: agree
@@ -55,6 +57,8 @@ vote_list:
       agree: 0
       disagree: 1
   - id: 10
+    relate:
+      - 4
     content: 新用户教程是否可以使用类似的方式
     option:
       agree: 1
